@@ -1,0 +1,126 @@
+.container {
+    height: 100vh;
+}
+.container .containerRow {
+    height: 100vh;
+}
+.leftPanel {
+    min-height: 200px;
+    background-color: #7eb923;
+    background-image:url('../../assets//images/bg.webp'),url("../../assets/images/p.jpg");
+    background-blend-mode:multiply;
+    background-size:cover;
+}
+.rightPanel {
+    height: auto;
+    background: #f6fdfa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formContainer {
+    width: 450px;
+    min-height: 650px;
+    background: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+.formContainer .formHeader {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.formContainer .formHeader small {
+    width: 70%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.formContainer .socialLoginContainer {
+    width: 100%;
+    min-height: 70px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formContainer .socialLoginContainer .socialLoginCard {
+    width: 80%;
+    height: 45px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.formContainer .socialLoginContainer .socialLoginCard span {
+    text-indent: 10px;
+}
+.formContainer .orDevider {
+    width: 80%;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.formContainer .orDevider::after {
+    content: "";
+    position: absolute;
+    width: 42%;
+    right: 0;
+    border-top: 1px solid grey;
+    opacity: 0.4;
+}
+.formContainer .orDevider::before {
+    content: "";
+    position: absolute;
+    width: 42%;
+    left: 0;
+    border-top: 1px solid grey;
+    opacity: 0.4;
+}
+.formContainer .formWrapper {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formContainer .formWrapper .form {
+    margin: 5px auto;
+    width: 80%;
+    min-height: 300px;
+}
+.formContainer .formWrapper .form .button {
+    padding: 15px;
+    width: 100%;
+    background: #7eb923;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    outline: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.formFooter {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

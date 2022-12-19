@@ -1,0 +1,48 @@
+.container {
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.19);
+    color:var(--text-color);
+}
+.container .left {
+}
+.container .left header {
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.container .left header p {
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 7px;
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.8;
+}
+.container .left small {
+    opacity: 0.7;
+}
+.container .right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 70px;
+}
+.container .right span {
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.accordionContent {
+    height: 0px;
+    background: var(--navbar-background);
+    margin: auto;
+    margin: 1rem 0rem 1rem 1rem;
+    overflow: hidden;
+    transition: height 0.2s linear;
+}
+.accordionShow {
+    height: 240px;
+    transition: height 0.2s linear;
+}

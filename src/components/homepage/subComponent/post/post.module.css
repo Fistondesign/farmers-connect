@@ -1,0 +1,159 @@
+.container
+{
+    min-height:600px;
+    width:100%;
+    padding:10px;
+}
+.container .panelHeaderI
+{
+    width:100%;
+    height:30px;
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.container .panelHeaderI::after
+{   width:100%;
+    height:4px;
+    content:'';
+    position:absolute;
+    border-bottom:1px solid rgba(0,0,0,0.19);
+    padding:2px;
+    top:31px;
+}
+.container .panelHeaderI .AvatarWithNames
+{
+    width:70%;
+    height:30px;
+    display:flex;
+    align-items:center;
+}
+.container .panelHeaderI .AvatarWithNames small{
+    text-indent:10px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+.container .panelHeaderI .AvatarWithNames .avatar
+{
+    width:25px;
+    height:25px;
+    background-color:white;
+    border-radius:50%;
+    border:1px solid #f5f6f5;
+    background-size:cover;
+    background-position:center center;
+    cursor:pointer;
+    
+}
+.container .panelHeaderI .action
+{
+    width:auto;
+    height:auto;
+    padding:5px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+.container .panelHeaderI .action:hover{
+    border-radius:50%;
+    background:var(--background);
+}
+
+/* styles of panelHeaderII */
+.container .panelHeaderII
+{
+     width:100%;
+     min-height:80px;
+     margin-top:1rem;
+     display:flex;
+     align-items:center;
+}
+.container .panelHeaderII .avatar{
+    width:55px;
+    height:55px;
+    background-color:white;
+    border-radius:50%;
+    border:1px solid #f5f6f5;
+    background-size:cover;
+    background-position:center center;
+    cursor:pointer;
+}
+.container .panelHeaderII .panelHeaderIITexts
+{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+    color:var(--text-color);
+}
+.container .panelHeaderII .panelHeaderIITexts p{
+    font-weight:600;
+    color:var(--text-color);
+}
+.container .panelHeaderII .panelHeaderIITexts small
+{
+    font-family:400;
+    opacity:0.6;
+    color:var(--text-color);
+}
+.container .panelBody
+{
+    width:100%;
+    height:400px;
+    background-color:red;
+}
+.container .panelBody .image
+{
+    width:100%;
+    height:400px;
+    background-size:cover;
+    background-position:center center;
+    cursor:pointer;
+}
+.container  .footerI
+{
+    width:100%;
+    height:30px;
+    margin-top:3px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.container  .footerI .likes
+{
+   display:flex;
+   align-items:center;
+   font-size:14px;
+}
+.blike
+{
+    background:lightblue;
+    border-radius:50%;
+    
+}
+.hlike
+{
+    background:lightcyan;
+    border-radius:50%;
+    margin-left:-3px;
+    
+}
+.container  .footerI small
+{
+    opacity:0.5;
+    color:var(--text-color);
+}
+.container  .footerI .share
+{
+   opacity:0.5;
+   font-size:14px;
+   color:var(--text-color);
+}
+.container .footerII
+{
+    width:100%;
+    height:35px;
+    display:flex;
+    margin-top:15px;
+    opacity:0.5;
+}
+

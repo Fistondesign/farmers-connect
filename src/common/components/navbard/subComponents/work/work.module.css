@@ -1,0 +1,49 @@
+.work {
+    min-width: 50px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.work span {
+    font-size: 20px;
+    color: #7eb923;
+}
+.work small {
+    text-transform: capitalize;
+    font-size: 11px;
+    color:var(--text-color);
+    font-weight: 700;
+}
+.work small::before {
+    content: "\f099";
+    position: absolute;
+    margin-left: 30px;
+    font-weight: 400;
+}
+/* right sidebar menu */
+.sidebar {
+    width: 400px;
+    height: 94%;
+    position: fixed;
+    right: 0;
+    top: 51px;
+    background: var(--background);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    transform: translateX(100%);
+    transition: transform 0.2s linear;
+    z-index: 100;
+    color:var(--text-color);
+}
+.show {
+    transform: translateX(0%);
+    transition: transform 0.2s linear;
+}

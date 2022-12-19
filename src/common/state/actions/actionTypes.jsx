@@ -1,0 +1,9 @@
+export const CHANGE_MODE = "CHANGE_MODE";
+export const CHANGE_LANGUAGE = "CHANGE_LANGUAGE";
+// authentication types
+export const SET_SIGNUP_LOADING = "SET_SIGNUP_LOADING";
+export const SET_SIGNUP_ERROR = "SET_SIGNUP_ERROR";
+export const SET_SIGNIN_LOADING = "SET_SIGNIN_LOADING";
+export const SET_SIGNIN_ERROR = "SET_SIGNIN_ERROR";
+export const SET_SIGNIN_SUCCESSED = "SET_SIGNIN_SUCCESSED";
+export const SET_SIGNOUT = "SET_SIGNOUT";

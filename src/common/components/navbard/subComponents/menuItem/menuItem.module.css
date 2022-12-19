@@ -1,0 +1,35 @@
+.menuItem {
+    min-width: 50px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position:relative;
+}
+.menuItem .text {
+    font-size: 22px;
+    color: #7eb923;
+}
+.menuItem small {
+    text-transform: capitalize;
+    font-size: 11px;
+    color:var(--text-color);;
+    font-weight: 700;
+}
+@media (max-width: 500px) {
+    .menuItem span {
+        font-size: 26px;
+    }
+    .menuItem span:hover ~ small {
+        display: flex;
+    }
+    .menuItem small {
+        display: none;
+    }
+}

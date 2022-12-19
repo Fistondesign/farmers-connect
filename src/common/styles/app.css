@@ -1,0 +1,97 @@
+
+:root{
+    --background:#f5f6f5;
+    --navbar-background:#ffffff;
+    --main-color:#7eb923;
+    --icon-color:#7eb923;
+    --text-color:#000;
+    --card-color:#ffffff;
+}
+[data-theme="dark"]{
+    --background:#1a1d25;
+    --navbar-background:#282a37;
+    --main-color:#282a37;
+    --icon-color:#7eb923;
+    --text-color:#ffffff;
+    --card-color:#282a37;
+}
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background: var(--background);
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+.justify-content-end {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.justify-content-center {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.text-black {
+    color: black;
+    font-size: 16px;
+}
+/* shadow div  */
+.shadow {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    opacity: 0.1;
+    z-index: 90;
+}
+.menu-badge
+{
+    padding:1px 5px;
+    background-color:red;
+    position:absolute;
+    border-radius:50%;
+    top:-1px;
+    right:9px;
+    color:white;
+    z-index:1;
+    font-size:13px;
+}
+.menu-badgePlus
+{
+    padding:1px 3px;
+    background-color:red;
+    position:absolute;
+    border-radius:50%;
+    top:-1px;
+    right:6px;
+    color:white;
+    z-index:1;
+    font-size:13px;
+}
+.mt-10{
+    margin-top:10px;
+}
